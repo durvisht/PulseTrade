@@ -1,0 +1,11 @@
+streamlit==1.63.0
+yfinance==1.7.0
+pandas==3.0.5
+numpy==2.5.2
+plotly==7.0.0
+google-genai==2.21.0
+requests==2.34.2
+supabase==2.31.0
+# pandas.read_html needs a parser — the S&P 500 constituent scrape depends on it.
+lxml==6.1.2
+beautifulsoup4==4.15.0

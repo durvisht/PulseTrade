@@ -1,0 +1,16 @@
+[theme]
+base = "dark"
+primaryColor = "#4F8BFF"
+backgroundColor = "#08090B"
+secondaryBackgroundColor = "#15181C"
+textColor = "#F7F8F8"
+font = "sans serif"
+
+[server]
+headless = true
+# Behind a host's TLS proxy (Render, Railway, Fly): keep XSRF on, and let
+# the proxy handle CORS. Streamlit's websocket works through all of them.
+enableXsrfProtection = true
+
+[browser]
+gatherUsageStats = false
