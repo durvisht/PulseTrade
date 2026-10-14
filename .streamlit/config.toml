@@ -11,6 +11,9 @@ headless = true
 # Behind a host's TLS proxy (Render, Railway, Fly): keep XSRF on, and let
 # the proxy handle CORS. Streamlit's websocket works through all of them.
 enableXsrfProtection = true
+# Serves static/ at /app/static/<file> — used for the public privacy policy,
+# which Google requires before an OAuth app can leave Testing mode.
+enableStaticServing = true
 
 [browser]
 gatherUsageStats = false
